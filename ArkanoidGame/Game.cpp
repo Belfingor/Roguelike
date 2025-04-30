@@ -8,7 +8,7 @@
 #include "GameStateRecords.h"
 #include "GameStateAddToRecordsTable.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	void Game::StartGame()
 	{

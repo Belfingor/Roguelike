@@ -8,7 +8,7 @@
 #include <cassert>
 #include <sstream>
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	void GameStatePlayingData::Init()
 	{

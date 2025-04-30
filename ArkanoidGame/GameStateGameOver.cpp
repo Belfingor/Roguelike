@@ -6,7 +6,7 @@
 #include <sstream>
 #include "RecordsTable.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	const char* PLAYER_NAME = "Player";
 

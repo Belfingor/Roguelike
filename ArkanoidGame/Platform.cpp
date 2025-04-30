@@ -6,7 +6,7 @@ namespace
 	const std::string TEXTURE_PATH = "Textures/Platform_A.png";
 }
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	Platform::Platform(const sf::Vector2f& position) : GameObject(SETTINGS.RESOURCES_PATH + TEXTURE_PATH, position, SETTINGS.PLATFORM_WIDTH, SETTINGS.PlATFORM_HEIGHT)
 	{

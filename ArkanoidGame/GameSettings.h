@@ -2,7 +2,7 @@
 #include <string>
 #define SETTINGS GameWorld::Instance()
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 
 	class GameWorld
@@ -65,6 +65,6 @@ namespace ArkanoidGame
 		const int MULTIHIT_BRICK_SCORE = 3;
 		const int PLAYER_LIVES = 3;
 		//--------------------------------------------------------------------------------
-		const std::string GAME_NAME = "ArkanoidGame";
+		const std::string GAME_NAME = "RoguelikeGame";
 	};
 }

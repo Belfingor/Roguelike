@@ -1,7 +1,7 @@
 #include "RecordsTable.h"
 
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	RecordsTable* RecordsTable::GetInstance()
 	{

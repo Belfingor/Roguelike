@@ -3,7 +3,7 @@
 #include "Application.h"
 #include "RecordsTable.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	void GameStateAddToRecordsTableData::Init()
 	{

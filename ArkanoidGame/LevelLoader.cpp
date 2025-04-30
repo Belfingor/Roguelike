@@ -5,7 +5,7 @@
 #include<cassert>
 #include<filesystem>
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	Level& LevelLoader::GetLevel(int i)
 	{

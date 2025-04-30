@@ -3,7 +3,7 @@
 #include <memory>
 #include <SFML/Graphics.hpp>
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	class Brick;
 

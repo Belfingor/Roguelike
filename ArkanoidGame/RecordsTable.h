@@ -10,7 +10,7 @@
 #define RECORDS RecordsTable::GetInstance()
 
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	//Creating RecordsTable class using Singleton pattern
 	class RecordsTable

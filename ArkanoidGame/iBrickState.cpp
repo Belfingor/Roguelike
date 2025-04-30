@@ -1,7 +1,7 @@
 #include "iBrickState.h"
 #include "Brick.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	void NormalBrickState::ApplySingleHitBuff(Brick& brick)
 	{

@@ -2,7 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include "Sprite.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	class GameObject
 	{

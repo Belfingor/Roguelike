@@ -9,7 +9,7 @@
 
 
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	enum class BrickType
 	{

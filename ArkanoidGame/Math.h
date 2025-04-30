@@ -2,7 +2,7 @@
 #include <algorithm>
 #include <SFML/Graphics.hpp>
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 
 	struct Vector2DCoordinates

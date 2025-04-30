@@ -8,7 +8,7 @@
 #include <sstream>
 #include "RecordsTable.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	class Game;
 

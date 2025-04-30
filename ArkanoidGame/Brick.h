@@ -11,7 +11,7 @@
 #include "Iobserver.h"
 #include "iBrickState.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	class Brick : public GameObject, public iCollidable, public IObservable  //,public iBrickState
 	{

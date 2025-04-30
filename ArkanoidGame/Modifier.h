@@ -7,7 +7,7 @@
 #include "Sprite.h"
 
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	enum class ModifierType //to identify which modifier to apply
 	{
