@@ -28,7 +28,6 @@ namespace RoguelikeGame
 		void ExitGame();
 		void QuitGame();
 		void ShowRecords();
-		void LoadNextLevel();
 
 	public:
 		using RecordsTable = std::unordered_map<std::string, int>;

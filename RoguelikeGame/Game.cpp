@@ -61,12 +61,6 @@ namespace RoguelikeGame
 	{
 		PushState(GameStateType::Records, true);
 	}
-	void Game::LoadNextLevel()
-	{
-		assert(stateStack.back().GetType() == GameStateType::Playing);
-		auto playingData = (stateStack.back().GetData<GameStatePlayingData>());
-		playingData->LoadNextLevel();
-	}
 	Game::Game()
 	{
 		stateChangeType = GameStateChangeType::None;
