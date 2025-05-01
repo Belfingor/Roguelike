@@ -1,7 +1,7 @@
 #include "Modifier.h"
 #include <algorithm>
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	Modifier::Modifier(const sf::Vector2f& position, const std::string& texturePath)
 		: GameObject(texturePath, position, SETTINGS.MODIFIER_SIZE, SETTINGS.MODIFIER_SIZE)

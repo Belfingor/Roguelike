@@ -5,7 +5,7 @@
 #include "GameSettings.h"
 
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	class GameStateAddToRecordsTableData : public GameStateData
 	{

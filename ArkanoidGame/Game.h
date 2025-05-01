@@ -6,7 +6,7 @@
 #include "GameState.h"
 #include <unordered_map>
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	enum class GameStateChangeType
 	{

@@ -1,7 +1,7 @@
 #include "Math.h"
 
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	bool DoShapesCollide(const Rectangle& rectangle, const Circle& circle)
 	{

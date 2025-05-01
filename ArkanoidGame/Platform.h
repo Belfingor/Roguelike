@@ -8,7 +8,7 @@
 #include "iCollidable.h"
 #include "Ball.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 
 	class Platform : public GameObject, public iCollidable

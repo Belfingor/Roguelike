@@ -6,7 +6,7 @@ namespace
 	const std::string TEXTURE_PATH = "Textures/Ball.png";
 }
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	Ball::Ball(const sf::Vector2f& position, const sf::Vector2f& direction) : GameObject(SETTINGS.RESOURCES_PATH + TEXTURE_PATH, position, SETTINGS.BALL_SIZE, SETTINGS.BALL_SIZE)
 	{

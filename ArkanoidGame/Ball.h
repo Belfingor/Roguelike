@@ -9,7 +9,7 @@
 #include "randomizer.h"
 #include "IObserver.h"
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	class Ball : public GameObject, public iCollidable, public IObservable
 	{

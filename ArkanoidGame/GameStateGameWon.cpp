@@ -1,6 +1,6 @@
 #include "GameStateGameWon.h"
 
-void ArkanoidGame::GameStateGameWon::Init()
+void RoguelikeGame::GameStateGameWon::Init()
 {
 	assert(font.loadFromFile(SETTINGS.RESOURCES_PATH + "Fonts/Roboto-Regular.ttf"));
 
@@ -31,7 +31,7 @@ void ArkanoidGame::GameStateGameWon::Init()
 	hintText.setString("Press Space to restart\nEsc to exit to main menu");
 }
 
-void ArkanoidGame::GameStateGameWon::HandleWindowEvent(const sf::Event& event)
+void RoguelikeGame::GameStateGameWon::HandleWindowEvent(const sf::Event& event)
 {
 	if (event.type == sf::Event::KeyPressed)
 	{
@@ -46,7 +46,7 @@ void ArkanoidGame::GameStateGameWon::HandleWindowEvent(const sf::Event& event)
 	}
 }
 
-void ArkanoidGame::GameStateGameWon::Update(float timeDelta)
+void RoguelikeGame::GameStateGameWon::Update(float timeDelta)
 {
 	if (!wasRecoredAdded)
 	{
@@ -63,7 +63,7 @@ void ArkanoidGame::GameStateGameWon::Update(float timeDelta)
 	RECORDS->SortRecordsTable();
 }
 
-void ArkanoidGame::GameStateGameWon::Draw(sf::RenderWindow& window)
+void RoguelikeGame::GameStateGameWon::Draw(sf::RenderWindow& window)
 {
 	sf::Vector2f viewSize = window.getView().getSize();
 

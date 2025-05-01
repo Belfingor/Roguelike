@@ -5,7 +5,7 @@ namespace
 	const std::string TEXTURE_PATH = "Textures/Standard_Brick.png";
 }
 
-namespace ArkanoidGame
+namespace RoguelikeGame
 {
 	void Brick::OnHit()
 	{
