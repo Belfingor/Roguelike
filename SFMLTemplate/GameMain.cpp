@@ -4,24 +4,24 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
 #include "Engine.h"
-#include <windows.h>
-#include <iostream>
+//#include <windows.h>
+//#include <iostream>
 
 const std::string RESOURCES_PATH = "Resources/";
 
 int main()
 {
-	// Redirect output to console / checking that engine works as intended
-	if (AllocConsole())
-	{
-		FILE* fp;
-		freopen_s(&fp, "CONOUT$", "w", stdout); // redirect stdout to the console
-		freopen_s(&fp, "CONOUT$", "w", stderr); // redirect stderr to the console
-	}
-	else
-	{
-		std::cerr << "Failed to allocate console" << std::endl;
-	}
+	//// Redirect output to console / checking that engine works as intended
+	//if (AllocConsole())
+	//{
+	//	FILE* fp;
+	//	freopen_s(&fp, "CONOUT$", "w", stdout); // redirect stdout to the console
+	//	freopen_s(&fp, "CONOUT$", "w", stderr); // redirect stderr to the console
+	//}
+	//else
+	//{
+	//	std::cerr << "Failed to allocate console" << std::endl;
+	//}
 
 
 	Engine engine;
