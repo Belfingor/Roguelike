@@ -161,18 +161,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
-    <ClCompile Include="Ball.cpp" />
-    <ClCompile Include="Brick.cpp" />
-    <ClCompile Include="BrickFactory.cpp" />
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="GameState.cpp" />
     <ClCompile Include="GameStateAddToRecordsTable.cpp" />
     <ClCompile Include="GameStateGameWon.cpp" />
-    <ClCompile Include="iBrickState.cpp" />
-    <ClCompile Include="LevelLoader.cpp" />
     <ClCompile Include="Math.cpp" />
-    <ClCompile Include="Modifier.cpp" />
-    <ClCompile Include="Platform.cpp" />
     <ClCompile Include="RecordsTable.cpp" />
     <ClCompile Include="Sprite.cpp" />
     <ClCompile Include="Game.cpp" />
@@ -187,22 +180,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Application.h" />
-    <ClInclude Include="Ball.h" />
-    <ClInclude Include="Brick.h" />
-    <ClInclude Include="BrickFactory.h" />
     <ClInclude Include="GameStateAddToRecordsTable.h" />
     <ClInclude Include="GameStateGameWon.h" />
-    <ClInclude Include="iBrickState.h" />
     <ClInclude Include="iCollidable.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="GameState.h" />
     <ClInclude Include="GameStateData.h" />
     <ClInclude Include="iDelayedAction.h" />
     <ClInclude Include="IObserver.h" />
-    <ClInclude Include="LevelLoader.h" />
     <ClInclude Include="Math.h" />
-    <ClInclude Include="Modifier.h" />
-    <ClInclude Include="Platform.h" />
     <ClInclude Include="randomizer.h" />
     <ClInclude Include="RecordsTable.h" />
     <ClInclude Include="Sprite.h" />
