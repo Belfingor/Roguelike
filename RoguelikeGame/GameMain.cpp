@@ -12,15 +12,15 @@ using namespace RoguelikeGame;
 
 int main()
 {
-	if (AllocConsole()) // Redirecting output to console
+	if (AllocConsole()) // redirecting output to console
 	{
 		FILE* fp;
-		freopen_s(&fp, "CONOUT$", "w", stdout); // stdout to console
-		freopen_s(&fp, "CONOUT$", "w", stderr); // stderr to console
+		freopen_s(&fp, "conout$", "w", stdout); // stdout to console
+		freopen_s(&fp, "conout$", "w", stderr); // stderr to console
 	}
 	else
 	{
-		std::cerr << "AllocConsole failed" << std::endl;
+		std::cerr << "allocconsole failed" << std::endl;
 	}
 
 	Engine engine;
