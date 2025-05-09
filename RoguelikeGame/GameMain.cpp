@@ -2,11 +2,11 @@
 // Authored by Aleksandr Rybalka (polterageist@gmail.com)
 
 #include <SFML/Graphics.hpp>
-//#include "Application.h"
 #include "Player.h"
 #include "Engine.h"
 #include "ResourceSystem.h"
 #include "DeveloperLevel.h"
+#include "Matrix2D.h"
 
 
 using namespace RoguelikeGame;
