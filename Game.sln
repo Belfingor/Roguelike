@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SFMLTemplate", "SFMLTemplat
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "Engine\Engine.vcxproj", "{6117E935-3C0E-4ED9-BC8F-19F4A3546765}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EngineTest", "EngineTest\EngineTest.vcxproj", "{A6EC4ABC-E12D-41D0-9B93-578D2790B377}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{6117E935-3C0E-4ED9-BC8F-19F4A3546765}.Release|x64.Build.0 = Release|x64
 		{6117E935-3C0E-4ED9-BC8F-19F4A3546765}.Release|x86.ActiveCfg = Release|Win32
 		{6117E935-3C0E-4ED9-BC8F-19F4A3546765}.Release|x86.Build.0 = Release|Win32
+		{A6EC4ABC-E12D-41D0-9B93-578D2790B377}.Debug|x64.ActiveCfg = Debug|x64
+		{A6EC4ABC-E12D-41D0-9B93-578D2790B377}.Debug|x64.Build.0 = Debug|x64
+		{A6EC4ABC-E12D-41D0-9B93-578D2790B377}.Debug|x86.ActiveCfg = Debug|Win32
+		{A6EC4ABC-E12D-41D0-9B93-578D2790B377}.Debug|x86.Build.0 = Debug|Win32
+		{A6EC4ABC-E12D-41D0-9B93-578D2790B377}.Release|x64.ActiveCfg = Release|x64
+		{A6EC4ABC-E12D-41D0-9B93-578D2790B377}.Release|x64.Build.0 = Release|x64
+		{A6EC4ABC-E12D-41D0-9B93-578D2790B377}.Release|x86.ActiveCfg = Release|Win32
+		{A6EC4ABC-E12D-41D0-9B93-578D2790B377}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
