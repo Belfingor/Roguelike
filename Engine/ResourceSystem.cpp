@@ -113,6 +113,36 @@ namespace GameEngine
 		textureMaps.erase(textureMap);
 	}
 
+	void ResourceSystem::LoadSound(const std::string& name, std::string sourcePath)
+	{
+		if (sounds.find(name) != sounds.end())
+		{
+			return;
+		}
+		else
+		{
+			sf::SoundBuffer* newSound = new sf::SoundBuffer();
+			if (newSound->loadFromFile(sourcePath))
+			{
+				sounds.emplace(name, newSound);
+			}
+		}
+	}
+
+	const sf::SoundBuffer* ResourceSystem::GetSound(const std::string& name) const
+	{
+		return sounds.find(name)->second;
+	}
+
+	void ResourceSystem::DeleteSound(const std::string& name)
+	{
+		auto SoundPair = sounds.find(name);
+
+		sf::SoundBuffer* deletingSound = SoundPair->second;
+		sounds.erase(SoundPair);
+		delete deletingSound;
+	}
+
 	void ResourceSystem::Clear()
 	{
 		DeleteAllTextures();
@@ -145,6 +175,20 @@ namespace GameEngine
 		for (const auto& key : keysToDelete)
 		{
 			DeleteSharedTextureMap(key);
+		}
+	}
+	void ResourceSystem::DeleteAllSounds()
+	{
+		std::vector<std::string> keysToDelete;
+
+		for (const auto& soundPair : sounds)
+		{
+			keysToDelete.push_back(soundPair.first);
+		}
+
+		for (const auto& key : keysToDelete)
+		{
+			DeleteSound(key);
 		}
 	}
 }
