@@ -18,7 +18,7 @@ namespace RoguelikeGame
 
 		auto playerInput = gameObject->AddComponent<GameEngine::InputComponent>();
 
-		//auto transform = gameObject->AddComponent<GameEngine::TransformComponent>();
+		auto transform = gameObject->AddComponent<GameEngine::TransformComponent>();
 
 		auto body = gameObject->AddComponent<GameEngine::RigidbodyComponent>();
 
